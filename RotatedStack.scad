@@ -3,8 +3,8 @@ $fn = 50;
 
 // Defaults for slice
 DEFAULT_INNER_RADIUS = 37.5 / 2; // For tea candle
-DEFAULT_OUTER_RADIUS = 40;
-DEFAULT_ALIGN_HOLE_RADIUS = 3.5 / 2;
+DEFAULT_OUTER_RADIUS = 50;
+DEFAULT_ALIGN_HOLE_RADIUS = 6 / 2; // For 6mm dowel
 DEFAULT_OUTER_FN = 5;
 
 // Defaults for stack
