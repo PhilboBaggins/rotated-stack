@@ -10,7 +10,7 @@ DEFAULT_OUTER_FN = 5;
 // Defaults for stack
 DEFAULT_SLICE_HEIGHT = 3;
 DEFAULT_ROTATION_PER_SLICE = 5;
-DEFAULT_NUM_SLICES_IN_STACK = 19;
+DEFAULT_NUM_SLICES_IN_STACK = 20;
 
 module Slice2D(
     rotation,
@@ -44,7 +44,7 @@ module Stack(
     numSlices = DEFAULT_NUM_SLICES_IN_STACK,
     rotationPerSlice = DEFAULT_ROTATION_PER_SLICE)
 {
-    for (x = [0 : 1 : 19])
+    for (x = [0 : 1 : numSlices - 1])
     {
         rotate([0, 0, x * rotationPerSlice])
         translate([0, 0, x * height])
