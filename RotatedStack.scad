@@ -20,12 +20,12 @@ module Slice2D(
     outerFN = DEFAULT_OUTER_FN)
 {
     offset = (outerRadius + innerRadius) / 2;
-    
+
     difference()
     {
         circle(outerRadius, $fn=outerFN);
         circle(innerRadius);
-        
+
         rotate([0, 0, -rotation])
         {
             translate([0, +offset]) circle(alighHoleRadius);
@@ -55,4 +55,4 @@ module Stack(
 }
 
 //Slice2D(0);
-Stack();
+//Stack();

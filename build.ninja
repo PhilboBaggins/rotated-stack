@@ -1,0 +1,26 @@
+rule oscad
+    command = "C:\Program Files\OpenSCAD\openscad.exe" -o $out $in
+    description = Build $out
+
+build exports/RotatedStack2D_00.svg: oscad exports/RotatedStack2D_00.scad
+build exports/RotatedStack2D_01.svg: oscad exports/RotatedStack2D_01.scad
+build exports/RotatedStack2D_02.svg: oscad exports/RotatedStack2D_02.scad
+build exports/RotatedStack2D_03.svg: oscad exports/RotatedStack2D_03.scad
+build exports/RotatedStack2D_04.svg: oscad exports/RotatedStack2D_04.scad
+build exports/RotatedStack2D_05.svg: oscad exports/RotatedStack2D_05.scad
+build exports/RotatedStack2D_06.svg: oscad exports/RotatedStack2D_06.scad
+build exports/RotatedStack2D_07.svg: oscad exports/RotatedStack2D_07.scad
+build exports/RotatedStack2D_08.svg: oscad exports/RotatedStack2D_08.scad
+build exports/RotatedStack2D_09.svg: oscad exports/RotatedStack2D_09.scad
+build exports/RotatedStack2D_10.svg: oscad exports/RotatedStack2D_10.scad
+build exports/RotatedStack2D_11.svg: oscad exports/RotatedStack2D_11.scad
+build exports/RotatedStack2D_12.svg: oscad exports/RotatedStack2D_12.scad
+build exports/RotatedStack2D_13.svg: oscad exports/RotatedStack2D_13.scad
+build exports/RotatedStack2D_14.svg: oscad exports/RotatedStack2D_14.scad
+build exports/RotatedStack2D_15.svg: oscad exports/RotatedStack2D_15.scad
+build exports/RotatedStack2D_16.svg: oscad exports/RotatedStack2D_16.scad
+build exports/RotatedStack2D_17.svg: oscad exports/RotatedStack2D_17.scad
+build exports/RotatedStack2D_18.svg: oscad exports/RotatedStack2D_18.scad
+build exports/RotatedStack2D_19.svg: oscad exports/RotatedStack2D_19.scad
+
+build exports/RotatedStack3D.png: oscad exports/RotatedStack3D.scad
